@@ -11,6 +11,7 @@
 |
 */
 
+Route::resource('/painel/produtos','Painel\ProdutoController');
 //Route::group(['namespace'=>'site'],function(){
     Route::get('/','SiteController@index');
     Route::get('/contato','Site\SiteController@contato');

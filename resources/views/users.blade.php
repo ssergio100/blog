@@ -95,7 +95,7 @@
                     <tr>
                         <td>#<?php echo isset($user->id)?$user->id:''; ?></td>
                         <td><?php echo isset($user->name)?$user->name:''; ?></td>
-                        <td><?php echo isset($user->cpf)?$user->cpf:''; ?></td>
+                        <td><?php echo isset($user->cpf)?$user->email:''; ?></td>
                     </tr>
                     <?php } ?>
                     </tbody>
